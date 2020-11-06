@@ -1,0 +1,21 @@
+.flashcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+}
+
+.flashcard > * {
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.flashcard > pre { 
+    text-align: left;
+}
+
+code {
+    white-space: pre-wrap !important;
+}

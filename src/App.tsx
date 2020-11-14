@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Home from './views/Home';
 import Compose from './views/Compose';
 import DecksPage from './views/Decks';
 
 function App() {
   return (
-    <Container>
+    // <Container fluid>
       <BrowserRouter>
         <Switch>
           <Route exact path="/">
@@ -21,7 +21,7 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
-    </Container>
+    // </Container>
   );
 }
 

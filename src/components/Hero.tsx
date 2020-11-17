@@ -15,6 +15,10 @@ function Hero() {
 const StyledHero = styled.div`
     height: 100vh;
     background: #1E1E1E;
+
+    @media (max-width: 450px) {
+        height: 50vh;
+    }
 `;
 
 export default Hero;

@@ -44,6 +44,14 @@ function LoginForm () {
 
 const FullDiv = styled.section`
     height: 100vh;
+
+    @media (max-height: 815px) {
+        height: 50vh;
+    }
+
+    @media (orientation: landscape) {
+        min-height: 100vh;
+    }
 `;
 
 export default LoginForm;
